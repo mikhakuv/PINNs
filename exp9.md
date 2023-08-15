@@ -11,7 +11,7 @@ MSE_u: 1.160784e-02, MSE_v: 1.160672e-02, MSE_q: 1.686543e-05, MSE_f_u: 1.163775
 <img src="https://github.com/mikhakuv/PINNs/blob/main/exp9_results_u_1.PNG" width="1800" height="600">  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/exp9_results_v_1.PNG" width="1800" height="600">  
 кривые обучения(минимизируемая функция loss и средний квадрат разности модулей mse_q):  
-<img src="https://github.com/mikhakuv/PINNs/blob/main/exp9_results_2.PNG" width="600" height="400">  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/exp9_results_2.PNG" width="1200" height="400">  
 отклонение от аналитического решения:  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/exp9_results_3.PNG" width="600" height="400">  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/exp9_results_4.PNG" width="600" height="400">  
