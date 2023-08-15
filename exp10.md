@@ -15,3 +15,4 @@ MSE_u: 1.139319e-02, MSE_v: 1.139416e-02, MSE_q: 4.298467e-04, MSE_f_u: 1.084106
 отклонение от аналитического решения:  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/exp10_results_4.PNG" width="600" height="400">  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/exp10_results_5.PNG" width="600" height="400">  
+ 
