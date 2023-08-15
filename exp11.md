@@ -1,5 +1,5 @@
 В этом эксперименте всё так же, как и в exp9, но использован метод балансировки SoftAdapt с тремя коэффициентами  (loss = lambda_in\*loss_in + lambda_b\*loss_b + lambda_f\*loss_f):
-<https://colab.research.google.com/drive/1VSheui0465boMzqqJjo2SadU14WwnvER?usp=sharing>  
+ 
 Получились следующие результаты:  
 
 <img src="https://github.com/mikhakuv/PINNs/blob/main/exp11_results_u_0.PNG" width="450" height="800">
