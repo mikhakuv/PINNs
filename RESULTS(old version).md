@@ -8,7 +8,7 @@
 * Использование балансировки весов замедляет обучение, но в то же время улучшает стабильность уменьшения mse_q. Чем сильнее разбиение loss на части, тем сильнее эффект(см [exp10](https://github.com/mikhakuv/PINNs/blob/main/exp10.md), [exp11](https://github.com/mikhakuv/PINNs/blob/main/exp11.md),  [exp12](https://github.com/mikhakuv/PINNs/blob/main/exp12.md),  [exp13](https://github.com/mikhakuv/PINNs/blob/main/exp13.md))
 ---
 * Память коэффициентов при балансировке весов улучшила результаты, но они всё ещё хуже, чем без балансировки вообще(см [exp14](https://github.com/mikhakuv/PINNs/blob/main/exp14.md))
-* Учёт величин слагаемых loss при балансировке весов не дал ощутимого улучшения(см [exp15](https://github.com/mikhakuv/PINNs/blob/main/exp15.md))  
+* Учёт порядка слагаемых loss при балансировке весов лишь ухудшил результаты(см [exp15](https://github.com/mikhakuv/PINNs/blob/main/exp15.md))  
 * Использование законов сохранения
 ---
 Статистику обучения в exp9-exp15 и сравнительные графики можно найти в файле: [stats.xlsx](https://github.com/mikhakuv/PINNs/blob/main/stats.xlsx)   
