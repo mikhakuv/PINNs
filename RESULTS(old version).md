@@ -9,7 +9,7 @@
 ---
 * Память коэффициентов при балансировке весов улучшила результаты, но они всё ещё хуже, чем без балансировки вообще(см [exp14](https://github.com/mikhakuv/PINNs/blob/main/exp14.md))
 * Учёт порядка слагаемых loss при балансировке весов лишь ухудшил результаты(см [exp15](https://github.com/mikhakuv/PINNs/blob/main/exp15.md))  
-* Использование метода балансировки весов ReLoBRaLo дало существенное увеличение качества, но он всё ещё хуже, чем без коэффициентов(см [exp16](https://github.com/mikhakuv/PINNs/blob/main/exp16.md))  
+* Использование метода балансировки весов ReLoBRaLo дало существенное увеличение качества, но оно всё ещё хуже, чем без коэффициентов(см [exp16](https://github.com/mikhakuv/PINNs/blob/main/exp16.md))  
 ---
 Статистику обучения в exp9-exp16 и сравнительные графики можно найти в файле: [stats.xlsx](https://github.com/mikhakuv/PINNs/blob/main/stats.xlsx)   
 Результаты всех успешных экспериментов можно найти в таблице: [performance_table.xlsx](https://docs.google.com/spreadsheets/d/1EAHA_UamNzLTHufkJSFcJTIRn0lpgeh28o-bcWYOjjE/edit?usp=sharing)
