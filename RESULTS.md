@@ -37,9 +37,11 @@ $$mse_v = \frac{\sum_{1 \leq i \leq n}(v_{truth}(x_i,t_i)-v_{pred}(x_i,t_i))^2}{
 $$mse_{f_u} = \frac{\sum_{1 \leq i \leq n}(f_{pred_u}(x_i,t_i))^2}{n}$$
 $$mse_{f_v} = \frac{\sum_{1 \leq i \leq n}(f_{pred_v}(x_i,t_i))^2}{n}$$
 ### Результаты
-Полученные результаты изображены на графиках 1 и 2:(пока не добавил)
-<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/results_chart1.png">  
-<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/results_chart2.png">  
+Полученные результаты изображены на графиках:(не окончательные)
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/results_chart1.PNG">  
+
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/results_chart2.PNG">  
+
 # Обзор Литературы  
 1. вроде ещё неопубликованная статья *Nikolay A. Kudryashov, Daniil R. Nifontov* "Application of machine learning to construct solutions to non-integrable partial differential equations"
 2. *Maziar Raissi, Paris Perdikaris, George Em Karniadakis* "Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations"
