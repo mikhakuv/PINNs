@@ -1,4 +1,4 @@
-### Итоги:
+### Прогресс:
 * Проблема с z0 была в функции активации(была tanh, теперь будет sin)(см [exp3](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp3.md)), остальные изменения заметных положительных эффектов не дали(cм [exp4](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp4.md), [exp5](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp5.md)).
 * Решение всё ещё плохо продолжается на большие t, а если и продолжается, то почему-то идёт ниже, чем нужно(см [exp6](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp6.md)).
 * Soft Adapt тоже не очень помог, коэффициенты просто постепенно приравниваются(см [exp7](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp7.md)).
