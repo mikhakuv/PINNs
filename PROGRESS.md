@@ -10,7 +10,11 @@
 * Память коэффициентов при балансировке весов улучшила результаты, но они всё ещё хуже, чем без балансировки вообще(см [exp14](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp14.md))
 * Учёт порядка слагаемых loss при балансировке весов лишь ухудшил результаты(см [exp15](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp15.md))  
 * Использование метода балансировки весов ReLoBRaLo дало существенное увеличение качества, но оно всё ещё хуже, чем без балансировки(см [exp16](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp16.md))
-* Учёт соблюдения законов сохранения при обучении (см [exp17](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp17.md))
 ---
+* Учёт соблюдения законов сохранения при обучении только ухудшает результаты, ведь задача повышения точности их соблюдения не совпадает с задачей понижения mse_q(см [exp17](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp17.md))
+* При увеличении числа итераций в обучении до 300000 ReLoBRaLo показывает самые лучшие результаты. Остальные методы балансировки выдают результаты хуже, чем в опыте без балансировки вообще(см. [exp18](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp18.md), [exp19](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp19.md), [exp20](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp20.md),
+[exp21](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp21.md), [exp22](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp22.md),
+[exp23](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp23.md))
+
 Статистику обучения во всех успешных экспериментах и сравнительные графики можно найти в файле: [stats.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/stats.xlsx)   
 Результаты можно найти в таблице: [performance_table.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/performance_table.xlsx)
