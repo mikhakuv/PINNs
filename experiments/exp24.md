@@ -3,6 +3,6 @@
 для такого случая нет, поэтому для проверки качества используется точность выполнения условий уравнения и точность соблюдения законов сохранения:  
 <https://colab.research.google.com/drive/1x67b_shTY9pqPV0Pqx7Wa5sJ9s82LJlu?usp=sharing>  
 Получились следующие результаты:  
-MSE_f_u: 9.642395e-06, MSE_f_v: 9.884827e-06, MSE_fl: 2.628389e-02, MSE_sl: 1.920050e-01
+MSE_f_u: 9.642395e-06, MSE_f_v: 9.884827e-06, MSE_fl: 2.628389e-02, MSE_sl: 1.920050e-01  
 Графики можно найти в прогруженном ноутбуке: <https://github.com/mikhakuv/PINNs/blob/main/notebooks/exp24.ipynb>  
 Модель можно скачать по [ссылке](https://github.com/mikhakuv/PINNs/blob/main/models/model_24.ipynb) и исследовать в [блокноте](https://colab.research.google.com/drive/1PGeRt-huLODfLSD-_PZaeBugljdYZdaQ?usp=sharing)
