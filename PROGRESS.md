@@ -17,7 +17,7 @@
 [exp23](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp23.md))
 ---
 * Изучение взаимодействия двух солитонов при alpha=0 дало замечательные результаты: законы сохранения и уравнение выполняются при всех t(см. [exp24](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp24.md))
-* Если же alpha=0.1, то начинаются проблемы: после пересечения солитоны распыляются, а законы сохранения перестают выполняться(см. [exp25](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp25.md))  
+* Если же alpha=0.1, то начинаются проблемы: после пересечения солитоны распыляются, чего быть не должно. При этом полученное решение хуже удовлетворяет условиям уравнения, но лучше соответствует законам сохранения(см. [exp25](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp25.md))  
 
 Статистику обучения во всех успешных экспериментах и сравнительные графики можно найти в файле: [stats.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/stats.xlsx)   
 Результаты можно найти в таблице: [performance_table.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/performance_table.xlsx)
