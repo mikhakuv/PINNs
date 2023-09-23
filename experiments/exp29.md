@@ -3,6 +3,6 @@
 Получились следующие результаты:  
 MSE_f_u: 2.763693e-06, MSE_f_v: 2.550728e-06, MSE_fl: 3.750363e-03, MSE_sl: 7.684185e-03  
 Предсказанное решение:  
-<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp29_results_uv.PNG">  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp29_results_uv.png">  
 Ещё графики можно найти в прогруженном ноутбуке: <https://github.com/mikhakuv/PINNs/blob/main/notebooks/exp29.ipynb>  
 Модель можно скачать по [ссылке](https://github.com/mikhakuv/PINNs/blob/main/models/model_29.pth) и исследовать в [блокноте](https://colab.research.google.com/drive/1PGeRt-huLODfLSD-_PZaeBugljdYZdaQ?usp=sharing)
