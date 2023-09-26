@@ -20,6 +20,8 @@
 * Если же alpha=0.1, то начинаются проблемы: после пересечения солитоны распыляются, чего быть не должно. При этом полученное решение хуже удовлетворяет условиям уравнения, но лучше соответствует законам сохранения(см. [exp25](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp25.md))
 * Как плавное, так и резкое изменение alpha в процессе обучения ничего не дало (см. [exp26](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp26.md), [exp27](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp27.md))
 * Оказалось, проблема заключается в распылении каждого из солитонов при alpha=0.1(см. [exp28](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp28.md)). Но если уменьшить коэффициенты k в решении, то распыление прекратится и получатся вполне хорошие результаты(см. [exp29](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp29.md))
+---
+* 
 
 Статистику обучения во всех успешных экспериментах и сравнительные графики можно найти в файле: [stats.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/stats.xlsx)   
 Результаты можно найти в таблице: [performance_table.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/performance_table.xlsx)
