@@ -23,6 +23,9 @@
 ---
 * Оказалось, что точность снижается при увеличении k и уменьшении w, а солитоны начинают распыляться при увеличении alpha.(см. [exp34](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp34.md))
 * При этом компенсировать большой k большим w сложно, ведь k влияет на функцию сильнее w.(см. [exp31](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp31.md))
+---
+* Добавление Фурье слоёв увеличивает точность, но решает проблему её снижения при увеличении k и не устраняет распыления солитонов(см. [exp35](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp35.md))
+* Замена переменной, растягивающая оси и упрощающая аппроксимацию действительно увеличивает точность, но начальное условие перестаёт создавать солитон. Поэтому данный способ полностью бесполезен(см. [exp36](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp36.md))
 
 Статистику обучения во всех успешных экспериментах и сравнительные графики можно найти в файле: [stats.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/stats.xlsx)   
 Результаты можно найти в таблице: [performance_table.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/performance_table.xlsx)
