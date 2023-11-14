@@ -26,6 +26,9 @@
 ---
 * Добавление Фурье слоёв иногда может увеличивать точность, но не решает проблему её снижения при увеличении k и не устраняет распыления солитонов(см. [exp35](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp35.md))
 * Замена переменной, растягивающая оси и упрощающая аппроксимацию действительно увеличивает точность, но начальное условие перестаёт создавать солитон. Поэтому данный способ полностью бесполезен(см. [exp36](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp36.md))
+---
+* Если задавать в качестве начального условия функции вида $f(x)*e^{-\frac{x}{a}^2}$, то они будут распыляться или задавать солитоны, но они точно не будут оставаться постоянными во времени(см. [exp37](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp37.md))  
+* Решение нелинейного уравнения Шрёдингера 4-го порядка показало, что PINN может решать его с высокой точностью, но только в случае ограниченности ожидаемого решения(см. [exp38](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp38.md))  
 
 Статистику обучения во всех успешных экспериментах и сравнительные графики можно найти в файле: [stats.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/stats.xlsx)   
 Результаты можно найти в таблице: [performance_table.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/performance_table.xlsx)
