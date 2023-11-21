@@ -2,8 +2,8 @@
 Используемые метрики:  
 $$MSE_{f_u} = \frac{\sum\limits_{i=1}^n(f_{pred_u}(x_i,t_i))^2}{n}$$
 $$MSE_{f_v} = \frac{\sum\limits_{i=1}^n(f_{pred_v}(x_i,t_i))^2}{n}$$
-$$MRF = \frac{\sum\limits_{i=1}^N |\int\limits_{x_0}^{x_1} |q(x,t_i)|^2 dx - \int\limits_{x_0}^{x_1} |q(x,t_0)|^2 dx|}{\int\limits_{x_0}^{x_1} |q(x,t_0)|^2 dx}\cdot100\\%$$
-$$MRS = \frac{\sum\limits_{i=1}^N |\int\limits_{x_0}^{x_1} (v_x u - u_x v)(x,t_i)\ dx - \int\limits_{x_0}^{x_1} (v_x u - u_x v)(x,t_0)\ dx|}{|\int\limits_{x_0}^{x_1} (v_x u - u_x v)(x,t_0)\ dx|}\cdot100\\%$$
+$$MRF = \frac{\sum\limits_{i=1}^N |\int\limits_{x_0}^{x_1} |q(x,t_i)|^2 dx - \int\limits_{x_0}^{x_1} |q(x,t_0)|^2 dx|}{N\cdot\int\limits_{x_0}^{x_1} |q(x,t_0)|^2 dx}\cdot100\\%$$
+$$MRS = \frac{\sum\limits_{i=1}^N |\int\limits_{x_0}^{x_1} (v_x u - u_x v)(x,t_i)\ dx - \int\limits_{x_0}^{x_1} (v_x u - u_x v)(x,t_0)\ dx|}{N\cdot|\int\limits_{x_0}^{x_1} (v_x u - u_x v)(x,t_0)\ dx|}\cdot100\\%$$
 # эксперимент 1  
 уравнение: $$iq_t + q_{xx} + |q|^2 q (1 - \alpha |q|^2 + \beta |q|^4) = 0$$
 коэффициенты: $$\alpha=1,\quad \beta=0$$  
