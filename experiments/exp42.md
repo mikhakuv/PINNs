@@ -6,6 +6,7 @@
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp42_results_1.png">  
 
 Точность: `MSE_f_u: 7.450000e-07, MSE_f_v: 5.826565e-07, First law mean/first_int(t=0): 3.46%, Second law mean/second_int(t=0): 8.03%`  
+Модель именно этого опыта доступна по [ссылке](https://github.com/mikhakuv/PINNs/blob/main/models/model_42.pth)  
 Также хорошо получился опыт с прохождением солитона с $k=1.4, w=1.8$ через решение для начального условия $q(x,0)=e^{-\frac{x}{2}^2}$:  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp42_results_2.png">  
 
