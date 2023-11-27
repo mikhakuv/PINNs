@@ -34,6 +34,7 @@
 ---
 * Были повторены exp39 и exp40, но для другого значения параметра alpha в уравнении($\alpha=0$) и попутно в одном из опытов получена наибольшая точность в решении данного уравнения, MSE_q~1e-8(см. [exp41](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp41.md) и [exp42](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp42.md))
 * Получены картины столкновения солитонов с разными $k$ и $w$, но одинаковыми $\mu$(см. [exp43](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp43.md))
+* Оказывается, обучение иметь тот же модуль, что и у солитона мешает обучению удовлетворять условиям уравнения (см. [exp44](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp44.md))
 
 
 Статистику обучения во всех успешных экспериментах и сравнительные графики можно найти в файле: [stats.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/stats.xlsx)   
