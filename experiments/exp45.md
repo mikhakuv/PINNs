@@ -8,4 +8,5 @@
 
 Точность: `MSE_f_u: 6.772910e-08, MSE_f_v: 6.545782e-08, First law mean/first_int(t=0): 1.17%, Second law mean/second_int(t=0): 1.89%`  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp45_results_uv.png">  
-Модель доступна по [ссылке](https://github.com/mikhakuv/PINNs/blob/main/models/model_45_a1_1.pth)  
+Модель именно этого опыта доступна по [ссылке](https://github.com/mikhakuv/PINNs/blob/main/models/model_45_a1_1.pth)  
+Также есть другой успешный опыт с в 2 раза меньшей амплитудой. Его модель можно найти по [ссылке](https://github.com/mikhakuv/PINNs/blob/main/models/model_45_a1_2.pth)  
