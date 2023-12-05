@@ -51,3 +51,18 @@ $$MRS = \frac{\sum\limits_{i=1}^N |\int\limits_{x_0}^{x_1} (v_x u - u_x v)(x,t_i
 
 график соблюдения законов сохранения:  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/collisions_results_laws_3.png">  
+
+# Дополнительно: менее удачные эксперименты
+* солитон при $\alpha=1,\quad k=1.4,\quad w=1.8$ в [exp39](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp39.md):  
+`MSE_f_u: 1.675830e-07, MSE_f_v: 1.949371e-07, First law mean/first_int(t=0): 3.59%, Second law mean/second_int(t=0): 4.70%`  
+* гауссиана $e^{-\frac{x}{2}^2}$ при $\alpha=1$ в [exp39](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp39.md):  
+`MSE_f_u: 3.621158e-07, MSE_f_v: 3.874740e-07, First law mean/first_int(t=0): 1.33%, Second law MSE: 1.764942e-05`  
+* солитон при $\alpha=1,\quad k=1.4,\quad w=1.8$ в [exp40](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp40.md):  
+`MSE_f_u: 1.994509e-07, MSE_f_v: 2.265459e-07, First law mean/first_int(t=0): 3.89%, Second law mean/second_int(t=0): 5.02%`  
+* солитон при $\alpha=1,\quad k=0.0,\quad w=-0.1$ в [exp40](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp40.md):  
+`MSE_f_u: 1.848115e-09, MSE_f_v: 1.683008e-09, First law mean/first_int(t=0): 0.03%, Second law MSE: 2.005546e-10`  
+* гауссиана $e^{-\frac{x}{2}^2}$ при $\alpha=1$ в [exp40](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp40.md):  
+`MSE_f_u: 3.574675e-07, MSE_f_v: 3.772759e-07, First law mean/first_int(t=0): 1.30%, Second law MSE: 1.202927e-06`
+* столкновение  солитона с $k=1.4,\quad w=1.8$ и гауссианы $e^{-\frac{x}{2}^2}$ при $\alpha=1$ в [exp40](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp40.md):  
+`MSE_f_u: 9.564915e-07, MSE_f_v: 1.154483e-06, First law mean/first_int(t=0): 3.13%, Second law mean/second_int(t=0): 3.64%`  
+
