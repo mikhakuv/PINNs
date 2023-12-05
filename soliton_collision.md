@@ -7,12 +7,12 @@ $$MRS = \frac{\sum\limits_{i=1}^N |\int\limits_{x_0}^{x_1} (v_x u - u_x v)(x,t_i
 # Эксперимент 1  
 уравнение: $$iq_t + q_{xx} + |q|^2 q (1 - \alpha |q|^2 + \beta |q|^4) = 0$$
 коэффициенты: $$\alpha=1,\quad \beta=0$$  
-начальное условие: $$q(x, 0)=\frac{4(k^{2} - w)}{\sqrt{k^2-w}*e^{\sqrt{k^{2} - w} (x - 2kt - x_0)} + 2\sqrt{k^{2}-w}*e^{-\sqrt{k^{2} - w} (x-2kt-x_0)}} e^{i(kx - wt + \theta_{0})}\quad +\quad e^{-\frac{x}{2}^2}$$
+начальное условие: $$q(x, 0)=\frac{4(k^{2} - w)}{\sqrt{k^2-w}*e^{\sqrt{k^{2} - w} (x - 2kt - x_0)} + 2\sqrt{k^{2}-w}*e^{-\sqrt{k^{2} - w} (x-2kt-x_0)}} e^{i(kx - wt + \theta_{0})}\quad +\quad e^{-(\frac{x}{2})^2}$$
 коэффициенты: $$k=1.4,\quad w=1.8,\quad x_0=-40,\quad \theta_0=0$$  
 график начального условия:  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/collisions_ic_1.png">  
 
-точность решения: $$MSE_{f_u}=8.095\cdot10^{-7},\quad MSE_{f_v}: 9.747\cdot10^{-7},\quad MRF=2.40\\%,\quad MRS=1.67\\%$$  
+точность решения: $$MSE_{f_u}=8.095\cdot10^{-7},\quad MSE_{f_v}=9.747\cdot10^{-7},\quad MRF=2.40\\%,\quad MRS=1.67\\%$$  
 график решения:  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/collisions_results_uv_1.png">  
 
@@ -27,9 +27,24 @@ $$MRS = \frac{\sum\limits_{i=1}^N |\int\limits_{x_0}^{x_1} (v_x u - u_x v)(x,t_i
 график начального условия:  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/collisions_ic_2.png">  
 
-точность решения: $$MSE_{f_u}=1.615\cdot10^{-7},\quad MSE_{f_v}: 1.636\cdot10^{-7},\quad MRF=0.65\\%,\quad MRS=1.44\\%$$  
+точность решения: $$MSE_{f_u}=1.615\cdot10^{-7},\quad MSE_{f_v}=1.636\cdot10^{-7},\quad MRF=0.65\\%,\quad MRS=1.44\\%$$  
 график решения:  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/collisions_results_uv_2.png">  
 
 график соблюдения законов сохранения:  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/collisions_results_laws_2.png">  
+
+# Эксперимент 3  
+уравнение: $$iq_t + q_{xx} + |q|^2 q (1 - \alpha |q|^2 + \beta |q|^4) = 0$$
+коэффициенты: $$\alpha=1,\quad \beta=0$$  
+начальное условие: $$q(x, 0)=\frac{4(k^{2} - w)}{\sqrt{k^2-w}*e^{\sqrt{k^{2} - w} (x - 2kt - x_0)} + 2\sqrt{k^{2}-w}*e^{-\sqrt{k^{2} - w} (x-2kt-x_0)}} e^{i(kx - wt + \theta_{0})}\quad +\quad \frac{1}{5}e^{-(\frac{x}{10})^2}$$
+коэффициенты: $$k=1.4,\quad w=1.8,\quad x_0=-40,\quad \theta_0=0$$  
+график начального условия:  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/collisions_ic_3.png">  
+
+точность решения: $$MSE_{f_u}=6.773\cdot10^{-8},\quad MSE_{f_v}=6.546\cdot10^{-8},\quad MRF=1.17\\%,\quad MRS=1.89\\%$$  
+график решения:  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/collisions_results_uv_3.png">  
+
+график соблюдения законов сохранения:  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/collisions_results_laws_3.png">  
