@@ -4,7 +4,8 @@ $$MSE_{f_u} = \frac{\sum\limits_{i=1}^n(f_{pred_u}(x_i,t_i))^2}{n}$$
 $$MSE_{f_v} = \frac{\sum\limits_{i=1}^n(f_{pred_v}(x_i,t_i))^2}{n}$$
 $$MRF = \frac{\sum\limits_{i=1}^N |\int\limits_{x_0}^{x_1} |q(x,t_i)|^2 dx - \int\limits_{x_0}^{x_1} |q(x,t_0)|^2 dx|}{N\cdot\int\limits_{x_0}^{x_1} |q(x,t_0)|^2 dx}\cdot100\\%$$
 $$MRS = \frac{\sum\limits_{i=1}^N |\int\limits_{x_0}^{x_1} (v_x u - u_x v)(x,t_i)\ dx - \int\limits_{x_0}^{x_1} (v_x u - u_x v)(x,t_0)\ dx|}{N\cdot|\int\limits_{x_0}^{x_1} (v_x u - u_x v)(x,t_0)\ dx|}\cdot100\\%$$
-# Эксперимент 1  
+# [Эксперимент 1](https://colab.research.google.com/drive/1_dj__EbFA3vHLXWkEEVa4WmgloZSrZH0#scrollTo=iTTzMxS5HoqJ)  
+## (из [exp39](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp39.md))  
 уравнение: $$iq_t + q_{xx} + |q|^2 q (1 - \alpha |q|^2 + \beta |q|^4) = 0$$
 коэффициенты: $$\alpha=1,\quad \beta=0$$  
 начальное условие: $$q(x, 0)=\frac{4(k^{2} - w)}{\sqrt{k^2-w}*e^{\sqrt{k^{2} - w} (x - 2kt - x_0)} + 2\sqrt{k^{2}-w}*e^{-\sqrt{k^{2} - w} (x-2kt-x_0)}} e^{i(kx - wt + \theta_{0})}\quad +\quad e^{-(\frac{x}{2})^2}$$
@@ -19,7 +20,8 @@ $$MRS = \frac{\sum\limits_{i=1}^N |\int\limits_{x_0}^{x_1} (v_x u - u_x v)(x,t_i
 график соблюдения законов сохранения:  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/collisions_results_laws_1.png">  
 
-# Эксперимент 2  
+# [Эксперимент 2](https://colab.research.google.com/drive/18KxANOxek6X0Lmfr3zRwjOPt17_tAH3Q#scrollTo=c3d-Gv_t-qEl)  
+## (из [exp40](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp40.md))  
 уравнение: $$iq_t + q_{xx} + |q|^2 q (1 - \alpha |q|^2 + \beta |q|^4) = 0$$
 коэффициенты: $$\alpha=1,\quad \beta=0$$  
 начальное условие: $$q(x,0)=\sum\limits_{i=1}^2\frac{(k_i^2-w_i)e^{\sqrt{k_i^2-w_i}(x-2k_it-x_{0_i})}*e^{i(k_ix-w_it+\theta_{0_i})}}{\frac{1}{16}+2(k_i^2-w_i)*e^{2\sqrt{k_i^2-w_i}(x-2k_it-x_{0_i})}}$$  
@@ -34,7 +36,8 @@ $$MRS = \frac{\sum\limits_{i=1}^N |\int\limits_{x_0}^{x_1} (v_x u - u_x v)(x,t_i
 график соблюдения законов сохранения:  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/collisions_results_laws_2.png">  
 
-# Эксперимент 3  
+# [Эксперимент 3](https://colab.research.google.com/drive/1F49spr8G_Q1z05kgfdrEQTYUtEM2KLO-#scrollTo=r4Vm3aNbjX_6)  
+## (из [exp45](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp45.md))  
 уравнение: $$iq_t + q_{xx} + |q|^2 q (1 - \alpha |q|^2 + \beta |q|^4) = 0$$
 коэффициенты: $$\alpha=1,\quad \beta=0$$  
 начальное условие: $$q(x, 0)=\frac{4(k^{2} - w)}{\sqrt{k^2-w}*e^{\sqrt{k^{2} - w} (x - 2kt - x_0)} + 2\sqrt{k^{2}-w}*e^{-\sqrt{k^{2} - w} (x-2kt-x_0)}} e^{i(kx - wt + \theta_{0})}\quad +\quad \frac{1}{5}e^{-(\frac{x}{10})^2}$$
