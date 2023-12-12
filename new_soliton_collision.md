@@ -2,8 +2,8 @@
 Используемые метрики:  
 $$MSE_{f_u} = \frac{\sum\limits_{i=1}^n(f_{pred_u}(x_i,t_i))^2}{n}$$
 $$MSE_{f_v} = \frac{\sum\limits_{i=1}^n(f_{pred_v}(x_i,t_i))^2}{n}$$
-$$ErrFl = \frac{\sum\limits_{i=1}^N |\int\limits_{x_0}^{x_1} |q(x,t_i)|^2 dx - \int\limits_{x_0}^{x_1} |q(x,t_0)|^2 dx|}{N\cdot\int\limits_{x_0}^{x_1} |q(x,t_0)|^2 dx}\cdot100\\%$$
-$$ErrSl = \frac{\sum\limits_{i=1}^N |\int\limits_{x_0}^{x_1} (v_x u - u_x v)(x,t_i)\ dx - \int\limits_{x_0}^{x_1} (v_x u - u_x v)(x,t_0)\ dx|}{N\cdot|\int\limits_{x_0}^{x_1} (v_x u - u_x v)(x,t_0)\ dx|}\cdot100\\%$$
+$$ErrFl = \frac{\sum\limits_{i=1}^N |\int\limits_{x_0}^{x_1} |q^{pred}(x,t_i)|^2 dx - \int\limits_{x_0}^{x_1} |q^{truth}(x,t_0)|^2 dx|}{N\cdot\int\limits_{x_0}^{x_1} |q^{truth}(x,t_0)|^2 dx}\cdot100\\%$$
+$$ErrSl = \frac{\sum\limits_{i=1}^N |\int\limits_{x_0}^{x_1} (v^{pred}_x u^{pred} - u^{pred}_x v^{pred})(x,t_i)\ dx - \int\limits_{x_0}^{x_1} (v^{truth}_x u^{truth} - u^{truth}_x v^{truth})(x,t_0)\ dx|}{N\cdot|\int\limits_{x_0}^{x_1} (v^{truth}_x u^{truth} - u^{truth}_x v^{truth})(x,t_0)\ dx|}\cdot100\\%$$
 # [Эксперимент 1](https://colab.research.google.com/drive/1MqNPmd4CWrGLLqPaZLk9sNnN1TU7IXwc#scrollTo=c3d-Gv_t-qEl)  
 ## (из [exp48](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp48.md))  
 уравнение: $$iq_t + q_{xx} + |q|^2 q (1 - \alpha |q|^2 + \beta |q|^4) = 0$$
@@ -41,3 +41,22 @@ $$ErrSl = \frac{\sum\limits_{i=1}^N |\int\limits_{x_0}^{x_1} (v_x u - u_x v)(x,t
 
 график соблюдения законов сохранения:  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp50_laws_s.png">  
+
+# [Эксперимент 3](https://colab.research.google.com/drive/1IH9gyxRPYXZqmihGXD1sZ3t4rs6BEola#scrollTo=equmSNU7m6x3)  
+## (из [exp50](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp50.md))  
+уравнение: $$iq_t + q_{xx} + |q|^2 q (1 - \alpha |q|^2 + \beta |q|^4) = 0$$
+коэффициенты: $$\alpha=1,\quad \beta=0$$  
+начальное условие: $$q(x,0)=\sqrt{\frac{4(k^2-w)\cdot e^{2\sqrt{k^2-w}\cdot(x-2kt-x_{0})}}{(1+\frac{1}{2}e^{2\sqrt{k^2-w}\cdot(x-2kt-x_{0})})^2 - \frac{1}{3}(\alpha\cdot 4(k^2-w)\cdot e^{4\sqrt{k^2-w}\cdot(x-2kt-x_{0})})}}\cdot e^{i\cdot (kx-wt-\theta_{0})}\quad+\quad\frac{1}{10}e^{-(\frac{x}{10})^2}$$  
+коэффициенты: $$k=1.5,\quad w=2.2,\quad x_{0}=-40,\quad \theta_{0}=0$$  
+график начального условия:  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp50_ic_lg.png">  
+
+точность решения: $$MSE_{f_u}=5.810\cdot10^{-8},\quad MSE_{f_v}=6.161\cdot10^{-8},\quad ErrFl=3.32\\%,\quad ErrSl=4.06\\%$$  
+график решения:  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp50_heatmap_lg.png">  
+
+по срезам:  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp50_slices_lg.png">  
+
+график соблюдения законов сохранения:  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp50_laws_lg.png">  
