@@ -23,3 +23,21 @@ $$ErrSl = \frac{\sum\limits_{i=1}^N |\int\limits_{x_0}^{x_1} (v_x u - u_x v)(x,t
 график соблюдения законов сохранения:  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp48_laws_s.png">  
 
+# [Эксперимент 2](https://colab.research.google.com/drive/1Voj78wLD-hu2eeVSeD4_pT4mP3NCrzxH#scrollTo=c3d-Gv_t-qEl)  
+## (из [exp50](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp50.md))  
+уравнение: $$iq_t + q_{xx} + |q|^2 q (1 - \alpha |q|^2 + \beta |q|^4) = 0$$
+коэффициенты: $$\alpha=1,\quad \beta=0$$  
+начальное условие: $$q(x,0)=\sqrt{\frac{4(k_1^2-w_1)\cdot e^{2\sqrt{k_1^2-w_1}\cdot(x-2k_1t-x_{0_1})}}{(1+\frac{1}{2}e^{2\sqrt{k_1^2-w_1}\cdot(x-2k_1t-x_{0_1})})^2 - \frac{1}{3}(\alpha\cdot 4(k_1^2-w_1)\cdot e^{4\sqrt{k_1^2-w_1}\cdot(x-2k_1t-x_{0_1})})}}\cdot e^{i\cdot (k_1x-w_1t-\theta_{0_1})}\quad+\quad\frac{(k_2^2-w_2)e^{\sqrt{k_2^2-w_2}(x-2k_2t-x_{0_2})}*e^{i(k_2x-w_2t+\theta_{0_2})}}{\frac{1}{16}+2(k_2^2-w_2)*e^{2\sqrt{k_2^2-w_2}(x-2k_2t-x_{0_2})}}$$  
+коэффициенты: $$k_1=1.4,\quad w_1=1.8,\quad x_{0_1}=-40,\quad \theta_{0_1}=0,\quad k_2=0.0,\quad w_2=-0.1,\quad x_{0_2}=0,\quad \theta_{0_2}=0$$  
+график начального условия:  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp50_ic_s.png">  
+
+точность решения: $$MSE_{f_u}=1.743\cdot10^{-7},\quad MSE_{f_v}=1.526\cdot10^{-7},\quad ErrFl=2.92\\%,\quad ErrSl=5.07\\%$$  
+график решения:  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp50_heatmap_s.png">  
+
+по срезам:  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp50_slices_s.png">  
+
+график соблюдения законов сохранения:  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp50_laws_s.png">  
