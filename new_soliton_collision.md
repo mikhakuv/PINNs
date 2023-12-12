@@ -3,7 +3,7 @@
 $$MSE_{f_u} = \frac{\sum\limits_{i=1}^n(f_{pred_u}(x_i,t_i))^2}{n}$$
 $$MSE_{f_v} = \frac{\sum\limits_{i=1}^n(f_{pred_v}(x_i,t_i))^2}{n}$$
 $$ErrFl = \frac{\sum\limits_{i=1}^N |\int\limits_{x_0}^{x_1} |q^{pred}(x,t_i)|^2 dx - \int\limits_{x_0}^{x_1} |q^{truth}(x,t_0)|^2 dx|}{N\cdot\int\limits_{x_0}^{x_1} |q^{truth}(x,t_0)|^2 dx}\cdot100\\%$$
-$$ErrSl = \frac{\sum\limits_{i=1}^N |\int\limits_{x_0}^{x_1} (v^{pred}_x u^{pred} - u^{pred}_x v^{pred})(x,t_i)\ dx - \int\limits_{x_0}^{x_1} (v^{truth}_x u^{truth} - u^{truth}_x v^{truth})(x,t_0)\ dx|}{N\cdot|\int\limits_{x_0}^{x_1} (v^{truth}_x u^{truth} - u^{truth}_x v^{truth})(x,t_0)\ dx|}\cdot100\\%$$
+$$ErrSl = \frac{\sum\limits_{i=1}^N |\int\limits_{x_0}^{x_1} (v_x^{pred} u^{pred} - u_x^{pred} v^{pred})(x,t_i)\ dx - \int\limits_{x_0}^{x_1} (v_x^{truth} u^{truth} - u_x^{truth} v^{truth})(x,t_0)\ dx|}{N\cdot|\int\limits_{x_0}^{x_1} (v_x^{truth} u^{truth} - u_x^{truth} v^{truth})(x,t_0)\ dx|}\cdot100\\%$$
 # [Эксперимент 1](https://colab.research.google.com/drive/1MqNPmd4CWrGLLqPaZLk9sNnN1TU7IXwc#scrollTo=c3d-Gv_t-qEl)  
 ## (из [exp48](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp48.md))  
 уравнение: $$iq_t + q_{xx} + |q|^2 q (1 - \alpha |q|^2 + \beta |q|^4) = 0$$
