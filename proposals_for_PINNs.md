@@ -12,7 +12,8 @@
 * hp-VPINNs - [[5]](#источники)
 * Bayesian PINNs - [[6]](#источники)
 * Finite Basis PINNs - [[7]](#источники)
-* Дополнительно: а что будет, если обучать нейросеть не с нуля, а переучивать из уже обученной на том же уравнении?
+
+Дополнительно: а что будет, если обучать нейросеть не с нуля, а переучивать из уже обученной на том же уравнении?
 
 # Источники  
 [1] *Tamara G. Grossmann, Urszula Julia Komorowska, Jonas Latz, Carola-Bibiane Schönlieb* "Can Physics-Informed Neural Networks beat the Finite Element Method?"  
