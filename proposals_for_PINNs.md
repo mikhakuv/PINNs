@@ -29,7 +29,7 @@
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/proposals_5.PNG">  
 
 Дополнительно: а что будет, если обучать нейросеть не с нуля, а переучивать из уже обученной на том же уравнении?
-Ещё появилась идея сделать что-то вроде градиентного бустинга для PINNs(раз ансамбль уже есть, то можно и дальше развивать идею принципа Кондорсе).
+Ещё появилась идея сделать что-то вроде градиентного бустинга для PINNs(раз ансамбль уже есть, то можно и дальше развивать идею принципа Кондорсе). Оказалось, это уже сделано в работе [[8]](#источники).
 
 # Источники  
 [1] *Tamara G. Grossmann, Urszula Julia Komorowska, Jonas Latz, Carola-Bibiane Schönlieb* "Can Physics-Informed Neural Networks beat the Finite Element Method?"  
@@ -39,3 +39,4 @@
 [5] *E. Kharazmi, Z. Zhang, and G. E. Karniadakis* "hp-VPINNs: Variational physics-informed neural networks with domain decomposition."  
 [6] *L. Yang, X. Meng, and G. E. Karniadakis* "B-PINNs: Bayesian physics-informed neural networks for forward and inverse PDE problems with noisy data."  
 [7] *B. Moseley, A. Markham, and T. Nissen-Meye* "Finite Basis Physics-Informed Neural Networks(FBPINNs): a scalable domain decomposition approach for solving differential equations."  
+[8] *Zhiwei Fang, Sifan Wang, Paris Perdikaris* "Ensemble learning for Physics Informed Neural Networks: a Gradient Boosting approach"
