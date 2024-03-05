@@ -42,6 +42,8 @@
 * Был проведён эксперимент с прохождением гауссианы через два параллельных солитона. И хотя его необходимо переделать, эффект изменения фазы наблюдается и тут(см. [exp47](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp47.md))
 * Воспроизведены старые опыты(exp40, exp42) с новой визуализацией и видоизменённой метрикой для законов сохранения(см. [exp48](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp48.md), [exp49](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp49.md))
 * Получены картины прохождения солитона с новым начальным условием(зависящим от $\alpha$) через различные гауссианы(см. [exp50](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp50.md))
+---
+* Проведены испытания метода FBPINNs для начального условия в виде солитона с известным решением(см. [exp51](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp51.md))
 
 
 Статистику обучения во всех успешных экспериментах и сравнительные графики можно найти в файле: [stats.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/stats.xlsx)   
