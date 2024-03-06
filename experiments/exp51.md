@@ -9,6 +9,6 @@
 [таблица значений](https://drive.google.com/file/d/16tNRvqY5jZpwLJY9Tz3FiEeJ6NufuPVr/view?usp=sharing)  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp51_charts_2.png">  
 
-* разбитие на области: 40 по x, 10 по t; наезжание областей: 2.5; топология: (2, 10, 10, 2); денормализация: (0.0, 1.2)  
+<!---* разбитие на области: 40 по x, 10 по t; наезжание областей: 1.5; топология: (2, 5, 5, 2); денормализация: (0.0, 1.2)  
 [таблица значений](https://github.com/mikhakuv/PINNs/blob/main/statistics/exp51_results_3.csv)  
-<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp51_charts_3.png">  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp51_charts_3.png">  ---!>
