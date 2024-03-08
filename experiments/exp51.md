@@ -16,7 +16,7 @@
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp51_charts_3_1.png">  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp51_charts_3_2.png">  
 
-* разбитие на области: 40 по x, 10 по t; наезжание областей: 1.5; топология: (2, 8, 8, 2); денормализация: (0.0, 1.2); функция активации: tanh  
+* разбитие на области: 40 по x, 10 по t; наезжание областей: 2.0; топология: (2, 5, 5, 2); денормализация: (0.0, 1.8); функция активации: tanh  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp51_charts_4_1.png">  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp51_charts_4_2.png">
 
