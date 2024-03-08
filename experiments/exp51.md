@@ -16,10 +16,13 @@
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp51_charts_3_1.png">  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp51_charts_3_2.png">  
 
-* разбитие на области: 40 по x, 10 по t; наезжание областей: 2.0; топология: (2, 8, 8, 2); денормализация: (0.0, 1.2); функция активации: sin  
-[таблица значений]()  
+* разбитие на области: 40 по x, 10 по t; наезжание областей: 1.5; топология: (2, 8, 8, 2); денормализация: (0.0, 1.2); функция активации: tanh  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp51_charts_4_1.png">  
-<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp51_charts_4_2.png">  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp51_charts_4_2.png">
+
+* разбитие на области: 40 по x, 10 по t; наезжание областей: 2.0; топология: (2, 8, 8, 2); денормализация: (0.0, 1.2); функция активации: sin  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp51_charts_5_1.png">  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp51_charts_5_2.png">  
 
 
 Видно, что усиление наезжания областей даёт значительное повышение точности решения(порядка 10 раз). Это можно объяснить тем, что значение в каждой точке получается как взвешенное среднее из нескольких нейросетей, то есть образуется что-то вроде ансамбля из нейросетей, который очевидно точнее если каждая из нейросетей по отдельности достаточно точна.
