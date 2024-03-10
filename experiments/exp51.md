@@ -26,7 +26,18 @@
 
 6. разбитие на области: 40 по x, 10 по t; наезжание областей: 2.0; топология: (2, 8, 8, 2); денормализация: (0.0, 1.2); функция активации: $c\cdot sin(o x)$  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp51_charts_6_1.png">  
-<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp51_charts_6_2.png">  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp51_charts_6_2.png">
+
+7. разбитие на области: 40 по x, 10 по t; наезжание областей: 1.5; топология: (2, 8, 8, 2); денормализация: (0.0, 1.2); функция активации: $sin(x)$  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp51_charts_7_1.png">  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp51_charts_7_2.png">  
+
+---
+опыты на большей области  
+8. разбитие на области: 80 по x, 50 по t; наезжание областей: 2.0; топология: (2, 8, 8, 2); денормализация: (0.0, 1.2); функция активации: $sin(x)$  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp51_charts_8_1.png">  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp51_charts_8_2.png">  
+
 
 
 Статистику по точности проведённых экспериментов можно найти в таблице: [performance_table_fbpinns.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/performance_table_fbpinns.xlsx)  
