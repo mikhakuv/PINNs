@@ -8,8 +8,12 @@
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp52_charts_11_1.png">  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp52_charts_11_2.png">  
 
-3. $t \in [0,50]$, число итераций: $5\cdot 10^{6}$ , время обучения: $$   
+3. $t \in [0,30]$, число итераций: $4\cdot 10^{6}$ , время обучения: $$   
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp52_charts_12_1.png">  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp52_charts_12_2.png">
+
+4. $t \in [0,50]$, число итераций: $$ , время обучения: $$   
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp52_charts_13_1.png">  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp52_charts_13_2.png">
 
 Статистику по точностим можно найти в таблице: [performance_table_fbpinns.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/performance_table_fbpinns.xlsx)  
