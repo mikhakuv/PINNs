@@ -4,7 +4,7 @@
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp52_charts_10_1.png">  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp52_charts_10_2.png">  
 
-2. $t \in [0,30]$, число итераций: $3\cdot 10^{6}$ , время обучения: $$   
+2. $t \in [0,30]$, число итераций: $3\cdot 10^{6}$ , время обучения: $18h\ 38m$   
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp52_charts_11_1.png">  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp52_charts_11_2.png">  
 
