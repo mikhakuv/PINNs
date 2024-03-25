@@ -11,10 +11,19 @@
 
 3. $t \in [0,28]$, число итераций: $3.68\cdot 10^{6}$ , время обучения: $23h 30m$   
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp52_charts_12_1.png">  
-<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp52_charts_12_2.png">
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp52_charts_12_2.png">  
 
-<!--4. $t \in [0,50]$, число итераций: $$ , время обучения: $$   
+
+Оказалось, что уменьшение количества точек коллокации (до `x_parts=2000`, `t_parts=500`) не сильно влияет на точность, но при этом существенно ускоряет процесс обучения. Это позволило провести опыты с большим числом итераций:  
+
+4. $t \in [0,50]$, число итераций: $5\cdot 10^{6}$ , время обучения: $<6h$   
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp52_charts_13_1.png">  
-<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp52_charts_13_2.png">-->
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp52_charts_13_2.png">  
 
-Статистику по точностям можно найти в таблице(exp10-exp12): [performance_table_fbpinns.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/performance_table_fbpinns.xlsx)  
+5. $t \in [0,50]$, число итераций: $10\cdot 10^{6}$ , время обучения: $11h 11m$   
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp52_charts_14_1.png">  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp52_charts_14_2.png">  
+
+
+Успешность последнего приведённого опыта позволила перейти к ещё большим областям.  
+Статистику по точностям можно найти в таблице(exp10-exp14): [performance_table_fbpinns.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/performance_table_fbpinns.xlsx)  
