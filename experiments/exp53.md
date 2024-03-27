@@ -7,6 +7,10 @@
 
 2. $t \in [0,100]$, `x_domains=120`, `t_domains=100`, число итераций: $20\cdot 10^{6}$ , время обучения: $12h\ 20m$   
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp53_charts_16_1.png">  
-<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp53_charts_16_2.png">  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp53_charts_16_2.png">
+
+3. $t \in [0,100]$, `x_domains=60`, `t_domains=50`, число итераций: $19,3\cdot 10^{6}$ , время обучения: $\sim 23h\ 30m$   
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp53_charts_17_1.png">  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp53_charts_17_2.png">  
 
 Статистику по точностям можно найти в таблице(exp14-): [performance_table_fbpinns.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/performance_table_fbpinns.xlsx)  
