@@ -13,4 +13,13 @@
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp53_charts_17_1.png">  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp53_charts_17_2.png">  
 
-Статистику по точностям можно найти в таблице(exp14-): [performance_table_fbpinns.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/performance_table_fbpinns.xlsx)  
+4. $t \in [0,100]$, `x_domains=80`, `t_domains=50`, число итераций: $50\cdot 10^{6}$ , время обучения: $\sim 58h\ 39m$   
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp53_charts_18_1.png">  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp53_charts_18_2.png">  
+
+5. $t \in [0,100]$, `x_domains=60`, `t_domains=100`, `unnorm=0.25`, `topology=(2,5,5,2)`, число итераций: $50\cdot 10^{6}$ , время обучения: $\sim 28h\ 40m$   
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp53_charts_19_1.png">  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp53_charts_19_2.png">  
+
+
+Статистику по точностям можно найти в таблице(exp14-exp19): [performance_table_fbpinns.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/performance_table_fbpinns.xlsx)  
