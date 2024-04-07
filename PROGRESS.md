@@ -46,6 +46,7 @@
 * Проведены испытания метода FBPINNs для начального условия в виде солитона с известным решением и подобраны наиболее удачные параметры(см. [exp51](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp51.md))
 * Подобранные на маленькой области параметры FBPINNs опробованы на больших областях(t<50)(см. [exp52](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp52.md))
 * Хорошие результаты на больших областях позволили перейти к опытам на очень больших областях(t<100)(см. [exp53](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp53.md))
+* Также проводятся опыты для случаев с неизвестным точным решением($\alpha_0 \neq \alpha$) (см. [exp54](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp54.md))
 
 Статистику обучения во всех успешных экспериментах и сравнительные графики можно найти в файле: [stats.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/stats.xlsx)    
 Результаты можно найти в таблицах: [performance_table.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/performance_table.xlsx) или [performance_table_fbpinns.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/performance_table_fbpinns.xlsx)
