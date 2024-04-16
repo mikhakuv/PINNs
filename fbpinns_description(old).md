@@ -26,7 +26,7 @@
 (подробнее см exp_fa_7 и exp_fa_7+ в таблице).  
 
 
-Статистику по всем проведённым экспериментам можно найти в [таблице](https://github.com/mikhakuv/PINNs/blob/main/statistics/performance_table_fbpinns_description.xlsx)  
+Статистику по всем проведённым экспериментам можно найти в [таблице](https://github.com/mikhakuv/PINNs/blob/main/statistics/performance_table_fbpinns_description(old).xlsx)  
 
 # Источники
 [1] *B. Moseley, A. Markham, and T. Nissen-Meye* "Finite Basis Physics-Informed Neural Networks(FBPINNs): a scalable domain decomposition approach for solving differential equations."  
