@@ -38,7 +38,7 @@ $Time: 14s &emsp; MSE_q: 2.132\cdot 10^{-4} &emsp; Rel_h: 1.070\cdot 10^{-1}$
 <img src="https://github.com/mikhakuv/PINNs_Loss_Balancing/blob/main/pictures/illustration.png">  
 
 Реализация данного метода даёт следующие результаты:  
-$Time:  &emsp; MSE_q:  &emsp; Rel_h: $  
+$Time: 11min 55s &emsp; MSE_q: 1.499\cdot 10^{-6} &emsp; Rel_h: 8.122\cdot 10^{-3}$  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/neural_network_results.png">  
 
 ## Дополнительно: Метод итерации
