@@ -30,7 +30,7 @@ Rel_h уменьшилась на **38%**, ошибки на законах - б
 Можно проделать те же самые действия и для полученных данных:  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/transfer_learning/exp_3+_fig.png">  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/transfer_learning/exp_3+_amplitude.png">  
-Rel_h почему-то увеличился, но ошибки на законах дополнительно уменьшились более чем на **49%**  
+Rel_h почему-то увеличилась, но ошибки на законах дополнительно уменьшились более чем на **49%**  
 
 2. Исходный результат:  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/transfer_learning/raw_2_fig.png">  
@@ -43,11 +43,11 @@ Rel_h почему-то увеличился, но ошибки на закон�
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/transfer_learning/exp_4_fig.png">  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/transfer_learning/exp_4_amplitude.png">  
 
-Rel_h уменьшилась на **--%**, ошибки на законах - более чем на **--%**  
+Rel_h уменьшилась на **55%**, ошибки на законах - более чем на **53%%**  
 Можно проделать те же самые действия и для полученных данных:  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/transfer_learning/exp_4+_fig.png">  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/transfer_learning/exp_4+_amplitude.png">  
-Rel_h почему-то увеличился, но ошибки на законах дополнительно уменьшились более чем на **--%**  
+Rel_h почему-то увеличилась, но ошибки на законах дополнительно уменьшились более чем на **75%**  
 
 Более подробная статистика доступна в файлах: [performance_table.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/performance_table_transfer_learning.xlsx), [enhancement_stats.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/enhancement_stats.xlsx)
 
