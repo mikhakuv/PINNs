@@ -47,7 +47,11 @@ Rel_h уменьшилась на **55%**, ошибки на законах - б
 Можно проделать те же самые действия и для полученных данных:  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/transfer_learning/exp_4+_fig.png">  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/transfer_learning/exp_4+_amplitude.png">  
+
 Rel_h почему-то увеличилась, но ошибки на законах дополнительно уменьшились более чем на **75%**  
 
 Более подробная статистика доступна в файлах: [performance_table.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/performance_table_transfer_learning.xlsx), [enhancement_stats.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/enhancement_stats.xlsx)
 
+## Дополнительные идеи  
+Можно провести опыты по улучшению данных, оставшихся от FBPINNs для $\alpha \neq \alpha_0$.  
+Также можно попробовать взять данные для $\alpha = \alpha_0$ и провести с ними процедуру улучшения, используя $\alpha \neq \alpha_0$.
