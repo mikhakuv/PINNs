@@ -30,6 +30,7 @@ Rel_h уменьшилась на **38%**, ошибки на законах - б
 Можно проделать те же самые действия и для полученных данных:  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/transfer_learning/exp_3+_fig.png">  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/transfer_learning/exp_3+_amplitude.png">  
+
 Rel_h почему-то увеличилась, но ошибки на законах дополнительно уменьшились более чем на **49%**  
 
 2. Исходный результат:  
@@ -43,12 +44,32 @@ Rel_h почему-то увеличилась, но ошибки на зако�
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/transfer_learning/exp_4_fig.png">  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/transfer_learning/exp_4_amplitude.png">  
 
-Rel_h уменьшилась на **55%**, ошибки на законах - более чем на **53%%**  
+Rel_h уменьшилась на **55%**, ошибки на законах - более чем на **53%**  
 Можно проделать те же самые действия и для полученных данных:  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/transfer_learning/exp_4+_fig.png">  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/transfer_learning/exp_4+_amplitude.png">  
 
 Rel_h почему-то увеличилась, но ошибки на законах дополнительно уменьшились более чем на **75%**  
+
+Опыты для $\alpha \neq \alpha_0$
+---
+3. Исходный результат:  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/transfer_learning/raw_3_fig.png">  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/transfer_learning/raw_3_amplitude.png">  
+
+Разбиение данных:  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/transfer_learning/exp_5_decomposition.png">  
+
+Улучшенный результат:  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/transfer_learning/exp_5_fig.png">  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/transfer_learning/exp_5_amplitude.png">  
+
+Ошибки на законах уменьшились более чем на **36%**  
+Можно проделать те же самые действия и для полученных данных:  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/transfer_learning/exp_5+_fig.png">  
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/transfer_learning/exp_5+_amplitude.png">  
+
+Ошибки на законах уменьшатся дополнительно более чем на **39%**
 
 Более подробная статистика доступна в файлах: [performance_table.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/performance_table_transfer_learning.xlsx), [enhancement_stats.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/enhancement_stats.xlsx)
 
