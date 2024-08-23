@@ -5,7 +5,7 @@
 2) **NO:** Другая, более сложная конструкция основанная на идеи нахождения функции Грина в виде нейросети[3]. Проверена на малом числе простых дифференциальных уравнений. Есть модификации, такие как **FNO**[4] и **PINO**[5]. Большинство методов доступны в библиотеке [neuralop](https://neuraloperator.github.io/neuraloperator/dev/user_guide/quickstart.html).  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/operators_2.PNG">  
 
-3) **PDEformer:** - сложно устроенная технология, но по сути оператор, по заявлениям решает любые двумерные задачи и делает это быстро [6].
+3) **PDEformer:** - сложно устроенная технология, но по сути оператор, по заявлениям решает любые двумерные задачи и делает это быстро[6]. Есть [github](https://github.com/mindspore-ai/mindscience/tree/master/MindFlow/applications/pdeformer1d).  
 ---
 [1] *Lu Lu, Pengzhan Jin, Guofei Pang, Zhongqiang Zhang & George Em Karniadakis* "Learning nonlinear operators via DeepONet based on the universal approximation theorem of operators" <https://www.researchgate.net/publication/350158010_Learning_nonlinear_operators_via_DeepONet_based_on_the_universal_approximation_theorem_of_operators/link/607e32a6907dcf667baf49fd/download>  
 [2] *Somdatta Goswami, Aniruddha Bora, Yue Yu, George Em Karniadakis* "Physics-Informed Deep Neural Operator Networks" <https://arxiv.org/abs/2207.05748>  
