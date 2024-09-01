@@ -48,7 +48,7 @@
 * Хорошие результаты на больших областях позволили перейти к опытам на очень больших областях(t<100)(см. [exp53](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp53.md))
 * Также проведены опыты для случаев с неизвестным точным решением($\alpha_0 \neq \alpha$) (см. [exp54](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp54.md))
 ---
-* Был проведён эксперимент по улучшению с помощью transfer learning решения, полученного ранее c помощью FBPINNs (см. [exp55](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp55.md))
+* Был проведён эксперимент по улучшению с помощью transfer learning решения, полученного ранее c помощью FBPINNs (см. [exp55](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp55.md)). Дальнейшая работа по transfer learning была оформлена в [отдельный репозиторий](https://github.com/mikhakuv/PINNs_Transfer_Learning).
 ---
 * Рассмотрено уравнение 6-го порядка: подвтерждена верность аналитического решения, получено решение с помошью классической PINN (см. [exp56](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp56.md))
 
