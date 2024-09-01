@@ -8,7 +8,7 @@ $$a_1 = 1, a_2 = 1, a_3=-5.2, a_4 = 0.3, a_5=-0.6, a_6 = 0.1, b_1 = 1, b_2 = -0.
 Его невязка:  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp56_charts_2.png">  
 
-Самое лучшее решение, полученное с помощью PINN считалось ~3 часа и имеет метрики `MSE_q: 1.001e+00`, `Rel_h: 6.392e-01`:
+[Самое лучшее решение](https://github.com/mikhakuv/PINNs/blob/main/notebooks/exp56.ipynb), полученное с помощью PINN считалось ~3 часа и имеет метрики `MSE_q: 1.001e+00`, `Rel_h: 6.392e-01`:
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp56_charts_3.png">  
 
 Есть идея как его улучшить:  
