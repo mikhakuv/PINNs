@@ -8,11 +8,10 @@ $$a_1 = 1, a_2 = 1, a_3=-5.2, a_4 = 0.3, a_5=-0.6, a_6 = 0.1, b_1 = 1, b_2 = -0.
 Его невязка:  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp56_charts_2.png">  
 
-[Самое лучшее решение](https://github.com/mikhakuv/PINNs/blob/main/notebooks/exp56.ipynb), полученное с помощью PINN считалось ~3 часа и имеет метрики `MSE_q: 1.001e+00`, `Rel_h: 6.392e-01`:
+[Самое лучшее решение](https://github.com/mikhakuv/PINNs/blob/main/notebooks/exp56.ipynb), полученное с помощью PINN считалось ~3 часа и имеет метрики `MSE_q: 1.001e+00`, `Rel_h: 6.392e-01`:  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp56_charts_3.png">  
 
-Есть идея как его улучшить:  
-Из исходного уравнения можно выделить два более простых и попеременно их решать.
+Есть идея как его улучшить: из исходного уравнения можно выделить два более простых и попеременно их решать.  
 $$iq_t + q(b_1|q|^2 +b_2|q|^4 + b_3|q|^6)=0\quad(1)$$  
 $$iq_t + ia_1q_x + a_2q_{xx} + ia_3q_{3x} + a_4q_{4x} + ia_5q_{5x} + a_6q_{6x}=0\quad(2)$$  
 У уравнения (1) известно аналитическое решение:  
