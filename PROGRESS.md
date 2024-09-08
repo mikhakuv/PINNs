@@ -51,6 +51,7 @@
 * Был проведён эксперимент по улучшению с помощью transfer learning решения, полученного ранее c помощью FBPINNs (см. [exp55](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp55.md)). Дальнейшая работа по transfer learning была оформлена в [отдельный репозиторий](https://github.com/mikhakuv/PINNs_Transfer_Learning).
 ---
 * Рассмотрено уравнение 6-го порядка: подвтерждена верность аналитического решения, получено решение с помошью классической PINN (см. [exp56](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp56.md))
+* Изменены коэффициенты в уравнении для получения большей нелинейности, получены решения новой задачи с помощью PINN и FBPINN (см. [exp57](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp57.md))
 
 Статистику обучения во всех успешных экспериментах и сравнительные графики можно найти в файле: [stats.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/stats.xlsx)    
 Результаты можно найти в таблицах: [performance_table.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/performance_table.xlsx) или [performance_table_fbpinns.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/performance_table_fbpinns.xlsx)
