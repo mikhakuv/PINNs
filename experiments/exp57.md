@@ -13,8 +13,10 @@ $$a_1 = 1,\ a_2 = -1,\ a_3 = -2.8,\ a_4 = -0.3,\ a_5 = -0.6,\ a_6 = 0.1,\ b_1 = 
 
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp57_charts_3.png">  
 
-<!--
-* [**FBPINN**](https://github.com/mikhakuv/PINNs/blob/main/notebooks/exp57_FBPINN.ipynb): $MSE_q$ = ``, $Rel_h$ = ``, считалось ~ часов
 
-<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp56_charts_4.png">  
--->
+* [**FBPINN**](https://github.com/mikhakuv/PINNs/blob/main/notebooks/exp57_FBPINN.ipynb): $MSE_q$ = `7.674e-02`, $Rel_h$ = `2.995e-01`, считалось ~ 17 часов
+
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp57_charts_4.png">  
+
+Очень странно, что решения не похожи на аналитическое и при этом похожи друг на друга. Это говорит либо о том, что это тоже решение или что оба метода страдают от одной и той же проблемы.
+
