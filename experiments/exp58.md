@@ -33,6 +33,6 @@ $MSE_q$ = ``, $Rel_h$ = ``, считалось ~ часов
 невязка:  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp58_charts_4.png">  -->
 
-Также была попытка использовать другой оптимизатор, предложенный в [[1]](https://arxiv.org/abs/2402.01868). Он конфликтует с lbfgs, поэтому получается использовать его только вместе с adam. Возможно дело в параметрах, но пока у него не получается снижать loss.
+Также была попытка использовать другой оптимизатор, предложенный в [[1]](https://arxiv.org/abs/2402.01868). Он конфликтует с lbfgs, поэтому получается использовать его только вместе с adam. Пока результаты не очень удачные: оптимизатор работает слишком долго.
 
 [1] *Pratik Rathore, Weimu Lei, Zachary Frangella, Lu Lu, Madeleine Udell* "Challenges in Training PINNs: A Loss Landscape Perspective"
