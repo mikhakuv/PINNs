@@ -25,15 +25,15 @@ $MSE_q$ = `8.256e-02`, $Rel_h$ = `2.835e-01`, считалось ~8 часов
 невязка:  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp58_charts_2.png">  
 
-<!--Также был опробован hl_2:  
-$MSE_q$ = ``, $Rel_h$ = ``, считалось ~ часов  
+Также был опробован hl_2:  
+$MSE_q$ = `8.214e-02`, $Rel_h$ = `2.832e-01`, считалось ~8 часов  
 решение:  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp58_charts_3.png">  
 
 невязка:  
-<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp58_charts_4.png">  -->
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp58_charts_4.png">
 
-Также была попытка использовать другой оптимизатор, предложенный в [[1]](https://arxiv.org/abs/2402.01868). Он работает, но пока не так эффектно как в статье и почти сразу останавливается (на нижней картинке он сделал только последние 23 итерации):
+Была попытка использовать другой оптимизатор, предложенный в [[1]](https://arxiv.org/abs/2402.01868). Он работает, но пока не так эффектно как в статье и почти сразу останавливается (на нижней картинке он сделал только последние 23 итерации):
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp58_charts_5.png">  
 
 Возможно, нужно использовать больше шагов с LBFGS перед ним.
