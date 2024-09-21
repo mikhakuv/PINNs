@@ -4,6 +4,7 @@ $$\left(\frac{1}{T}\cdot\frac{dx}{dt}\right)^2 + \left(\frac{1}{T}\cdot\frac{dy}
 $x(t)$ и $y(t)$ неизвестны и находятся в виде PINN. Пример решения:  
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/light_path_chart_1.png">  
 
-В качестве развития этой идеи можно предложить определение $n(x,y)$ по уже заданной кривой или решение задач с учётом зависимости коэффициента преломления от длины волны $\lambda$ или температуры $T$.
+В качестве развития этой идеи можно предложить определение $n(x,y)$ по уже заданной кривой или решение задач с учётом зависимости коэффициента преломления от [длины волны](https://emtoolbox.nist.gov/Wavelength/Documentation.asp#AppendixB) $\lambda$
+или  [температуры](https://chem21.info/page/075139247247176021114033193159218099070080212136/) $T$.
 
 [1]: **Jaemin Seo** Solving real‑world optimization tasks using physics‑informed neural computing
