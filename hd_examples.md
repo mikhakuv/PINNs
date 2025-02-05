@@ -70,3 +70,99 @@ $$
 & +0.3 \exp [-20{(x+0.5)^2+y^2}]
 \end{aligned}
 $$
+
+solution: no exact solution  
+methods: PINN, SPINN  
+result: PINN is almost equal to SPINN
+
+4. **(2+1)D Flow Mixing Problem**
+
+$$\frac{\partial u(t, x, y)}{\partial t}+a \frac{\partial u(t, x, y)}{\partial x}+b \frac{\partial u(t, x, y)}{\partial y}=0, \quad t \in[0,4], x \in[-4,4], y \in[-4,4]$$
+$$
+\begin{aligned}
+\text{where}& a(x, y)=-\frac{v_t}{v_{t, \max }} \frac{y}{r} \\
+& b(x, y)=\frac{v_t}{v_{t, \max }} \frac{x}{r} \\
+& v_t=\text{sech}^2(r) \text{tanh} (r) \\
+& r=\sqrt{x^2+y^2} \\
+& v_{t, \max }=0.385
+\end{aligned}
+$$
+
+solution: $u(t, x, y)=-\tanh \left(\frac{y}{2} \cos (\omega t)-\frac{x}{2} \sin (\omega t)\right),\ \text{where}\ w=\frac{1}{r}\frac{v_t}{v_{t, \max}}$  
+methods: PINN, SPINN  
+result: SPINN is better  
+
+5. **(2+1)D Navier-Stokes**
+
+$$
+\begin{array}{lr}
+\partial_t \omega+u \cdot \nabla \omega=\nu \Delta \omega, & x \in [0,2\pi]^2, t \in [0,1], \\
+\nabla \cdot u=0, & x \in [0,2\pi]^2, t \in [0,1], \\
+\omega(x, 0)=\omega_0(x), & x \in [0,2\pi]^2,\\
+\text{where}\ \omega = \nabla\times u
+\end{array}
+$$
+
+solution: no exact solution  
+methods: PINN, causal PINN, SPINN  
+result: SPINN is way better than others
+
+6. **(3+1)D Navier-Stokes**
+
+$$
+\begin{array}{lr}
+\partial_t \omega+(u \cdot \nabla) \omega=(\omega \cdot \nabla) u+\nu \Delta \omega+F, & x \in [0,2\pi]^3, t \in [0,5], \\
+\nabla \cdot u=0, & x \in [0,2\pi]^3, t \in [0,5] \\
+\omega(x, 0)=\omega_0(x), & x \in [0,2\pi]^3
+\end{array}
+$$
+
+$$
+\text{where}
+\begin{aligned}
+& F_x=-6 e^{-18 \nu t} \sin (4 y) \sin (2 z), \\
+& F_y=-6 e^{-18 \nu t} \sin (4 x) \sin (2 z), \\
+& F_z=6 e^{-18 \nu t} \sin (4 x) \sin (4 y) .
+\end{aligned}
+$$
+
+solution:
+
+$$
+\begin{aligned}
+u_x & =2 e^{-9 \nu t} \cos (2 x) \sin (2 y) \sin (z) \\
+u_y & =-e^{-9 \nu t} \sin (2 x) \cos (2 y) \sin (z) \\
+u_z & =-2 e^{-9 \nu t} \sin (2 x) \sin (2 y) \cos (z) \\
+\omega_x & =-3 e^{-9 \nu t} \sin (2 x) \cos (2 y) \cos (z) \\
+\omega_y & =6 e^{-9 \nu t} \cos (2 x) \sin (2 y) \cos (z) \\
+\omega_z & =-6 e^{-9 \nu t} \cos (2 x) \cos (2 y) \sin (z), \\
+\text{and}\ \nu = 0.05
+\end{aligned}
+$$
+
+methods: SPINN  
+result: SPINN achieves good result in less than 30 minutes
+
+7. **(3+1)D Klein-Gordon**
+
+$$
+\begin{aligned}
+&\begin{aligned}
+& \partial_{t t} u-\Delta u+u^2=f,\ &&x \in [-1,1]^3, t \in [0,10], \\
+& u(x, 0)=x_1+x_2,\ &&x \in [-1,1]^3, \\
+& u(x, t)=u_{\mathrm{bc}}(x),\ &&x \in \partial [-1,1]^3, t \in [0,10]
+\end{aligned}\\
+\end{aligned}
+$$
+
+solution: $u = (x_1+x_2+x_3)\text{cos}(t) + x_1x_2x_3\text{sin}(t)$  
+methods: PINN, SPINN  
+result: SPINN is better  
+
+8. **(5+1)D Diffusion**
+
+$$\frac{\partial u(t, x)}{\partial t}=\Delta u(t, x), \quad x \in[-1,1]^5, t \in[0,1]$$
+
+solution: $u = ||x||^2 + 10t$  
+methods: SPINN  
+result: SPINN achieves good results within 2 minutes
