@@ -39,3 +39,34 @@ u(x)=0, & x \in \partial [-1,1]^3
 solution: $u = \text{sin}(a_1 \pi x_1)\text{sin}(a_2 \pi x_2)\text{sin}(a_3 \pi x_3)$  
 methods: PINN, SPINN  
 result: SPINN is better  
+
+2. **(2+1)D Klein-Gordon**
+
+$$
+\begin{aligned}
+&\begin{aligned}
+& \partial_{t t} u-\Delta u+u^2=f,\ &&x \in [-1,1]^2, t \in [0,10], \\
+& u(x, 0)=x_1+x_2,\ &&x \in [-1,1]^2, \\
+& u(x, t)=u_{\mathrm{bc}}(x),\ &&x \in \partial [-1,1]^2, t \in [0,10]
+\end{aligned}\\
+\end{aligned}
+$$
+
+solution: $u = (x_1+x_2)\text{cos}(2t) + x_1x_2\text{sin}(2t)$  
+methods: PINN, SPINN  
+result: SPINN is better  
+
+3. **(2+1)D  Diffusion**
+
+$$\begin{array}{lr}
+\partial_t u=\alpha\left(\|\nabla u\|^2+u \Delta u\right), & x \in [-1,1]^2, t \in [0,1], \\
+u(x, 0)=u_{\mathrm{ic}}(x), & x \in [-1,1]^2, \\
+u(x, t)=0, & x \in \partial [-1,1]^2, t \in [0,1], \\
+\end{array}
+$$
+$$
+\begin{aligned}
+\text{where}\ u_{\text {ic }}(x, y)=0.25 \exp [-10 {(x-0.2)^2+(y-0.3)^2}] & +0.4 \exp [-15 {(x+0.1)^2+(y+0.5)^2}] \\
+& +0.3 \exp [-20{(x+0.5)^2+y^2}]
+\end{aligned}
+$$
