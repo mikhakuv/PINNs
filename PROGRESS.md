@@ -56,6 +56,7 @@
 * Реализована балансировка весов ReLoBRaLo и Causal Loss, дополнительно построены графики зависимости основных метрик от loss (см. [exp60](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp60.md))
 * Реализована модель с новой топологией и сегментация области с возможностью повторного использования весов (см. [exp61](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp61.md))
 * Изучено влияение повторного использования весов на точность, проведены опыты на больших областях (см. [exp62](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp62.md))
+* Устранена причина некачественных результатов при использовании сегментации. Проведены новые опыты с одним и двумя солитонами (см. [exp63](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp63.md))
 ---
 Статистику обучения во всех успешных экспериментах и сравнительные графики можно найти в файле: [stats.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/stats.xlsx)    
 Результаты можно найти в таблицах: [performance_table.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/performance_table.xlsx) или [performance_table_fbpinns.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/performance_table_fbpinns.xlsx)
