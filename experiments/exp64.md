@@ -7,10 +7,10 @@ $$a_1 = 1,\ a_2 = -1,\ a_3 = -2.8,\ a_4 = -0.3,\ a_5 = -0.6,\ a_6 = 0.1,\ b_1 = 
 
 * Солитон с $k=0$, $x_0=0$
 
-Точности: `'Lw1_per_max': ,
- 'Lw1_per_mean': ,
- 'Lw2_per_max': ,
- 'Lw2_per_mean': `  
+Точности: `'Lw1_per_max': 0.4576935116230912,
+ 'Lw1_per_mean': 0.15984683810593966,
+ 'Lw2_per_max': 5.1004746387689176e+16,
+ 'Lw2_per_mean': 2.4066672028551364e+16`  
 
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp64_charts_1.png" width="600" height="200">  
 
