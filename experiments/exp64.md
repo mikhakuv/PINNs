@@ -27,7 +27,7 @@ $$a_1 = 1,\ a_2 = -1,\ a_3 = -2.8,\ a_4 = -0.3,\ a_5 = -0.6,\ a_6 = 0.1,\ b_1 = 
 
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp64_charts_4.png" width="500" height="300">  
 
-* Гауссиана:  $y = 2\cdot e^{-(x-1)^2}$
+* Гауссиана:  $y = 2\cdot e^{-x^2}$
 
 Точности: `'Lw1_per_max': ,  
 'Lw1_per_mean': ,
