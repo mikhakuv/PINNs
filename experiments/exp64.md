@@ -29,10 +29,10 @@ $$a_1 = 1,\ a_2 = -1,\ a_3 = -2.8,\ a_4 = -0.3,\ a_5 = -0.6,\ a_6 = 0.1,\ b_1 = 
 
 * Гауссиана:  $y = 2\cdot e^{-x^2}$
 
-Точности: `'Lw1_per_max': ,  
-'Lw1_per_mean': ,
- 'Lw2_per_max': ,
- 'Lw2_per_mean': `  
+Точности: `'Lw1_per_max': 2.3822917952751723,
+'Lw1_per_mean': 1.530741449122327,
+ 'Lw2_per_max': inf,
+ 'Lw2_per_mean': inf`  
 
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp64_charts_5.png" width="600" height="200">  
 
