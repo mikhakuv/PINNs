@@ -62,6 +62,7 @@
 * Проведено исследование нового метода генерации точек и сравнение его с другими существующими методами (см. [exp67](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp67.md))
 * Получено качественное решение уравнения разностной схемой, проведено полное сравнение существующих методов генерации точек (см. [exp68](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp68.md))
 * Найдены особенности работы численной схемы, предложен алгоритм оптимального подбора параметров сетки (см. [exp69](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp69.md))
+* Произведены запуски параллельных солитонов, найдено минимальное расстояние, на котором они способны двигаться без взаимодействия (см. [exp70](https://github.com/mikhakuv/PINNs/blob/main/experiments/exp70.md))
 ---
 Статистику обучения во всех успешных экспериментах и сравнительные графики можно найти в файле: [stats.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/stats.xlsx)    
 Результаты можно найти в таблицах: [performance_table.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/performance_table.xlsx) или [performance_table_fbpinns.xlsx](https://github.com/mikhakuv/PINNs/blob/main/statistics/performance_table_fbpinns.xlsx)
