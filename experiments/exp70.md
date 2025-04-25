@@ -17,7 +17,7 @@ $$a_1 = 1,\ a_2 = -1,\ a_3 = -2.8,\ a_4 = -0.3,\ a_5 = -0.6,\ a_6 = 0.1,\ b_1 = 
 
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp70_chart_4.png" width="1000" height="500">  
 
-* $\Delta x = 7.5$ - ???
+* $\Delta x = 7.5$ - **распыляется только один солитон**
 
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp70_chart_5.png" width="1000" height="500">  
 
