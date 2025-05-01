@@ -17,6 +17,24 @@ $$a_1 = 1,\ a_2 = -1,\ a_3 = -2.8,\ a_4 = -0.3,\ a_5 = -0.6,\ a_6 = 0.1,\ b_1 = 
 
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp70_chart_4.png" width="1000" height="500">  
 
+* $\Delta x = 7.9375$ - **распыляется только один солитон**
+
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp70_chart_11.png" width="1000" height="500">  
+
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp70_chart_12.png" width="1000" height="500">  
+
+* $\Delta x = 7.875$ - **распыление есть**
+
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp70_chart_13.png" width="1000" height="500">  
+
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp70_chart_14.png" width="1000" height="500">  
+
+* $\Delta x = 7.75$ - **распыляется только один солитон**
+
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp70_chart_15.png" width="1000" height="500">  
+
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp70_chart_16.png" width="1000" height="500">  
+
 * $\Delta x = 7.5$ - **распыляется только один солитон**
 
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp70_chart_5.png" width="1000" height="500">  
