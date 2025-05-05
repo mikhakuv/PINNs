@@ -11,6 +11,12 @@ $$a_1 = 1,\ a_2 = -1,\ a_3 = -2.8,\ a_4 = -0.3,\ a_5 = -0.6,\ a_6 = 0.1,\ b_1 = 
 
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp70_chart_2.png" width="1000" height="500">  
 
+* $\Delta x = 9$ - **распыления нет**
+
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp70_chart_17.png" width="1000" height="500">  
+
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp70_chart_18.png" width="1000" height="500">  
+
 * $\Delta x = 8$ - **распыления нет**
 
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp70_chart_3.png" width="1000" height="500">  
@@ -52,3 +58,9 @@ $$a_1 = 1,\ a_2 = -1,\ a_3 = -2.8,\ a_4 = -0.3,\ a_5 = -0.6,\ a_6 = 0.1,\ b_1 = 
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp70_chart_9.png" width="1000" height="500">  
 
 <img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp70_chart_10.png" width="1000" height="500">  
+
+---
+
+Итог:
+
+<img src="https://github.com/mikhakuv/PINNs/blob/main/pictures/exp70_chart_19.png" width="800" height="300">  
